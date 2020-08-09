@@ -1,10 +1,21 @@
 ## RedisDesktopManager-Windows
 
+[![Build status](https://ci.appveyor.com/api/projects/status/7rb3wvpe06sk3ihp?svg=true)](https://ci.appveyor.com/project/lework/redisdesktopmanager-windows)
+[![GitHub All Releases](https://img.shields.io/github/downloads/lework/RedisDesktopManager-Windows/total?style=flat-square&logo=github)](https://github.com/lework/RedisDesktopManager-Windows/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/lework/RedisDesktopManager-Windows?style=flat-square&logo=github)](https://github.com/lework/RedisDesktopManager-Windows/tags)
+[![GitHub stars](https://img.shields.io/github/stars/lework/RedisDesktopManager-Windows?style=flat-square&logo=github)](https://github.com/lework/RedisDesktopManager-Windows/stargazers)
+[![Project license](https://img.shields.io/github/license/lework/RedisDesktopManager-Windows?style=flat-square&logo=github)](https://github.com/lework/RedisDesktopManager-Windows/blob/master/LICENSE)
+
 RedisDesktopManager Windows版本
 
-为了方便国内技术人员不方便以美元购买[订阅](https://redisdesktop.com/pricing)才开设的本仓库。如果在条件允许的情况下，衷心的希望购买[订阅](https://redisdesktop.com/pricing)支持下作者，在这里也非常感谢作者开源[RedisDesktopManager](https://github.com/uglide/RedisDesktopManager)。
+**通知**
 
-目前国内可以通过`微信`支付购买[redisdesktop.com](https://redisdesktop.com/)上的订阅，每次的购买都会有助于作者[uglide](https://github.com/uglide)推动RDM向前发展。
+从今天开始， 可以在 Microsoft Store 上以超级优惠价 **¥49.00** 来购买 RedisDesktopManager。从此不再有登录，订阅，定期付款，下载缓慢等问题，并以合理的价格获得开源项目持续更新的软件，您每次的购买都会有助于作者 [uglide](https://github.com/uglide) 推动 RedisDesktopManager 向前发展。
+
+点击此按钮，快速下载软件吧！ <a target="_blank" href='//www.microsoft.com/store/apps/9NDK76ZVZ3TM?cid=storebadge&ocid=badge'>
+<img height="20" src='https://developer.microsoft.com/en-us/store/badges/images/Chinese_Simplified_Get_L.png' alt='Get it from Microsoft'/>
+</a>
+
 
 ## 安装使用
 
@@ -12,9 +23,9 @@ RedisDesktopManager Windows版本
 
 ## Faq
 
-1. 程序启动出现 0xc000007b错误。
+1. 程序启动出现 `0xc000007b` 错误。
+   
+    下载运行 [vc_redist.x64](https://aka.ms/vs/15/release/vc_redist.x64.exe) 点击修复选项。
+2. 由于找不到 `python37.dll`。
 
-    下载运行[vc_redist.x64](https://aka.ms/vs/15/release/vc_redist.x64.exe)点击修复选项。
-2. 由于找不到python37.dll。
-
-    下载仓库中的[python37-deps.zip](https://github.com/lework/RedisDesktopManager-Windows/blob/master/python37-deps.zip?raw=true),解压到RedisDesktopManager安装目录中。
+    下载 [python37-deps.zip](https://github.com/lework/RedisDesktopManager-Windows/blob/779ac84cbcad3f5497dd5a87f2c8e9aa93457026/python37-deps.zip?raw=true), 解压到RedisDesktopManager安装目录中。
